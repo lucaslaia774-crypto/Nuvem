@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketing de Relacionamento</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Tela cheia */
+#fullscreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+#fullscreen img {
+    width: 95%;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Marketing de Relacionamento</h1>
+<p>Trabalho escolar completo sobre influência digital</p>
+</header>
+
+<section>
+
+<div class="card">
+<h2>Introdução</h2>
+<p>
+O marketing de relacionamento é uma estratégia focada em criar e manter uma conexão duradoura com o público. 
+Diferente do marketing tradicional, que busca apenas vender, esse modelo busca gerar confiança, proximidade 
+e fidelidade entre marca e consumidor.
+</p>
+
+<p>
+Com o crescimento da internet e das redes sociais, os influenciadores digitais passaram a ter um papel muito 
+importante nesse processo, pois conseguem se comunicar diretamente com seus seguidores.
+</p>
+</div>
+
+<div class="card">
+<h2>O que é Marketing de Relacionamento</h2>
+<p>
+É uma estratégia que busca construir um relacionamento contínuo com o cliente, oferecendo valor, atenção 
+e comunicação constante. O objetivo é transformar clientes em fãs da marca.
+</p>
+
+<p>
+Isso acontece através de interações, respostas, conteúdos educativos e transparência nas ações.
+</p>
+</div>
+
+<div class="card">
+<h2>Importância</h2>
+<p>
+O marketing de relacionamento é importante porque aumenta o engajamento, melhora a confiança e influencia 
+diretamente nas decisões de compra das pessoas.
+</p>
+
+<p>
+Clientes que se sentem valorizados tendem a permanecer mais tempo acompanhando uma marca ou influenciador.
+</p>
+</div>
+
+<div class="card">
+<h2>Estratégias Utilizadas</h2>
+<ul>
+<li>Responder comentários e mensagens</li>
+<li>Criar conteúdo educativo</li>
+<li>Mostrar a realidade e bastidores</li>
+<li>Ser transparente com o público</li>
+<li>Manter frequência de postagens</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Influenciadores Digitais</h2>
+<p>
+Influenciadores digitais utilizam o marketing de relacionamento para criar uma conexão forte com seus seguidores. 
+Eles compartilham experiências, dicas e opiniões que ajudam o público.
+</p>
+
+<p>
+Quando existe confiança, o público passa a considerar as recomendações desses influenciadores.
+</p>
+</div>
+
+<div class="card">
+<h2>Slides do Trabalho</h2>
+
+<img src="images/a.png" onclick="abrir(this.src)">
+<img src="images/b.png" onclick="abrir(this.src)">
+<img src="images/c.png" onclick="abrir(this.src)">
+<img src="images/d.png" onclick="abrir(this.src)">
+<img src="images/e.png" onclick="abrir(this.src)">
+<img src="images/f.png" onclick="abrir(this.src)">
+<img src="images/g.png" onclick="abrir(this.src)">
+<img src="images/h.png" onclick="abrir(this.src)">
+<img src="images/i.png" onclick="abrir(this.src)">
+<img src="images/j.png" onclick="abrir(this.src)">
+<img src="images/k.png" onclick="abrir(this.src)">
+<img src="images/L.png" onclick="abrir(this.src)">
+<img src="images/m.png" onclick="abrir(this.src)">
+<img src="images/n.png" onclick="abrir(this.src)">
+<img src="images/o.png" onclick="abrir(this.src)">
+
+</div>
+
+</section>
+
+<!-- Tela cheia -->
+<div id="fullscreen" onclick="fechar()">
+<img id="imgGrande">
+</div>
+
+<script>
+function abrir(src) {
+    document.getElementById("fullscreen").style.display = "flex";
+    document.getElementById("imgGrande").src = src;
+}
+
+function fechar() {
+    document.getElementById("fullscreen").style.display = "none";
+}
+</script>
+
+</body>
+  </html>
